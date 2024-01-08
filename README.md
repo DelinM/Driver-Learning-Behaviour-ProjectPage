@@ -1,44 +1,19 @@
-# Academic Project Page Template
-This is an academic paper project page template.
+![cover_photo](static/images/Features.png)
+
+# Enhancing Driver Behavior Learning: Study on Feature Grouping and Combination
+*Introducing a innovative way to categorize and combine car monitoring system data using engineering design concepts to improve driver behaviour prediction model accuracy. Autonomous driving is one of the most promising industry in travel and transportation. Environmental perception modules are playing crucial roles in automatic driving system and driving behaviour prediction. The modules use various type of sensors to construct the perception of real-time road environment. The popular sensors used includes ultrasonic radar systems, LiDAR, cameras, and internal vehicle SCADA.Our approach enables us to assess the significance of each group of data features on the driver learning behavior prediction model’s success, with a stronger emphasis on engineering considerations rather than being constrained by the limitations or capabilities of specific sensors.*
+
+## Philosophy
+Sensory systems are directly liable for the quality of collected data which could affect the performance of a driving behaviour prediction system. Sometimes, We refrain from grouping data features based on sensors (data sources). Instead, in the study, we apply transportation engineering practices and road engineering design concepts to categorize the data features. We disregard the data sources and concentrated on categorizing them into similar functional and distinct categories. 123 collected feature are broken into 7 categories for model performance benchmarking,
+
+## Notes
+A non-disclosure agreement was signed with related project stakeholders. The codes and data for the development are saved in University of Waterloo's private GitLab Repository.
+
+However, the development team is working on data cleaning, and aiming to release data & models as open source for community to enhance DBL studies! It is estimated that the project will be open source by early 2025.
+
+## Project Page
+For more information related to feature selection, feature grouping, model building, please review paper or use the link below:
+https://delinm.github.io/Driving_Behaviour_Sensor_Data_Sutdy_Page/
 
 
-Example project pages built using this template are:
-- https://www.vision.huji.ac.il/deepsim/
-- https://www.vision.huji.ac.il/3d_ads/
-- https://www.vision.huji.ac.il/ssrl_ad/
-- https://www.vision.huji.ac.il/conffusion/
-
-
-## Start using the template
-To start using the template click on `Use this Template`.
-
-The template uses html for controlling the content and css for controlling the style. 
-To edit the websites contents edit the `index.html` file. It contains different HTML "building blocks", use whichever ones you need and comment out the rest.  
-
-**IMPORTANT!** Make sure to replace the `favicon.ico` under `static/images/` with one of your own, otherwise your favicon is going to be a dreambooth image of me.
-
-## Components
-- Teaser video
-- Images Carousel
-- Youtube embedding
-- Video Carousel
-- PDF Poster
-- Bibtex citation
-
-## Tips:
-- The `index.html` file contains comments instructing you what to replace, you should follow these comments.
-- The `meta` tags in the `index.html` file are used to provide metadata about your paper 
-(e.g. helping search engine index the website, showing a preview image when sharing the website, etc.)
-- The resolution of images and videos can usually be around 1920-2048, there rarely a need for better resolution that take longer to load. 
-- All the images and videos you use should be compressed to allow for fast loading of the website (and thus better indexing by search engines). For images, you can use [TinyPNG](https://tinypng.com), for videos you can need to find the tradeoff between size and quality.
-- When using large video files (larger than 10MB), it's better to use youtube for hosting the video as serving the video from the website can take time.
-- Using a tracker can help you analyze the traffic and see where users came from. [statcounter](https://statcounter.com) is a free, easy to use tracker that takes under 5 minutes to set up. 
-- This project page can also be made into a github pages website.
-- Replace the favicon to one of your choosing (the default one is of the Hebrew University). 
-- Suggestions, improvements and comments are welcome, simply open an issue or contact me. You can find my contact information at [https://pages.cs.huji.ac.il/eliahu-horwitz/](https://pages.cs.huji.ac.il/eliahu-horwitz/)
-
-## Acknowledgments
-Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
-
-## Website License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+![finishing_photo](static/images/DFC_CoverPic.jpg)
